@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小太阳成长托管中心</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; color: #333; line-height: 1.6; background-color: #fcfcfc;}
+        
+        /* 顶部导航 */
+        header { display: flex; justify-content: space-between; align-items: center; padding: 15px 5%; background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; }
+        .logo { font-size: 1.4rem; font-weight: bold; color: #FF6B35; }
+        .phone-btn { background: #FF6B35; color: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 0.9rem;}
+
+        /* 首屏海报 */
+        .hero { text-align: center; padding: 80px 20px; background: linear-gradient(135deg, #FFF5EC 0%, #FFE8D6 100%); }
+        .hero h1 { font-size: 2.5rem; color: #2C3E50; margin-bottom: 15px; }
+        .hero p { font-size: 1.2rem; color: #666; margin-bottom: 30px; }
+        .cta-btn { display: inline-block; background: #2EC4B6; color: white; padding: 12px 30px; border-radius: 25px; font-size: 1.1rem; text-decoration: none; font-weight: bold; box-shadow: 0 4px 15px rgba(46,196,182,0.3); }
+
+        /* 核心优势 */
+        .section-title { text-align: center; font-size: 1.8rem; margin: 60px 0 30px; color: #2C3E50; }
+        .features { display: flex; justify-content: space-around; flex-wrap: wrap; max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        .card { background: white; width: 30%; min-width: 280px; margin-bottom: 20px; padding: 30px; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); text-align: center; border-top: 5px solid #FF6B35; }
+        .card h3 { font-size: 1.3rem; margin-bottom: 10px; color: #333; }
+        .card p { color: #777; font-size: 0.95rem; }
+
+        /* 每日流程 */
+        .schedule { max-width: 800px; margin: 0 auto 60px; background: #fff; padding: 30px; border-radius: 12px; }
+        .time-row { display: flex; border-bottom: 1px dashed #eee; padding: 15px 0; }
+        .time { width: 30%; font-weight: bold; color: #FF6B35; }
+        .event { width: 70%; }
+
+        /* 底部页脚 */
+        footer { background: #2C3E50; color: white; text-align: center; padding: 40px 20px; margin-top: 60px; }
+        footer p { margin: 5px 0; font-size: 0.9rem; color: #ccc; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">☀️ 小太阳托管</div>
+        <a href="tel:13800138000" class="phone-btn">拨打咨询热线</a>
+    </header>
+
+    <div class="hero">
+        <h1>放学去哪里？安全又开心！</h1>
+        <p>专人校门接送 · 资深老师辅导作业 · 营养明厨加餐</p>
+        <a href="#contact" class="cta-btn">预约到店参观</a>
+    </div>
+
+    <h2 class="section-title">为什么家长都选我们？</h2>
+    <div class="features">
+        <div class="card">
+            <h3>🛡️ 绝对安全</h3>
+            <p>老师持证上岗，校门口无缝对接接送，监控全覆盖，随时让家长放心。</p>
+        </div>
+        <div class="card">
+            <h3>📖 作业辅导</h3>
+            <p>告别鸡飞狗跳！专业老师指导温习，检查作业完成度，解答疑难错题。</p>
+        </div>
+        <div class="card">
+            <h3>🍲 营养餐食</h3>
+            <p>拒绝外卖预制菜。每日新鲜食材，均衡搭配午餐与放学能量点心。</p>
+        </div>
+    </div>
+
+    <h2 class="section-title">孩子放学后的时间表</h2>
+    <div class="schedule">
+        <div class="time-row"><span class="time">16:00 - 16:30</span><span class="event">校门口接机，安全到达中心，洗手消毒</span></div>
+        <div class="time-row"><span class="time">16:30 - 17:00</span><span class="event">享用健康水果与点心，稍微休息放松</span></div>
+        <div class="time-row"><span class="time">17:00 - 18:30</span><span class="event">高效完成校内作业，老师进行轻度面批</span></div>
+        <div class="time-row"><span class="time">18:30 - 19:30</span><span class="event">益智阅读 / 桌面游戏时间，等待家长接回</span></div>
+    </div>
+
+    <footer id="contact">
+        <p>校区地址：XX市XX区XX路XX花园3栋102商铺</p>
+        <p>咨询微信：Tuoguan_001 （王老师）</p>
+        <p style="margin-top:20px; font-size:0.8rem;">© 2026 小太阳成长托管中心 版权所有</p>
+    </footer>
+
+</body>
+</html>
